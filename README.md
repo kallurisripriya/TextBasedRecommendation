@@ -34,19 +34,17 @@ CONTENTS:
   • MySQL - https://www.filehorse.com/download-mysql-64/12617/download/
   • Apache Tomcat - https://tomcat.apache.org/download-70.cgi
   • Google Collaboratory - https://research.google.com/colaboratory/
+  • Github link - https://github.com/kallurisripriya/TextBasedRecommendation
 
 5. Project Execution Steps:
     Step 1 : Open Recommendations.ipynb in google colaboratory and attach dataset.csv to it.
     Step 2 : Run all the code which generates recommendations into csv file.
     Step 3 : Use this csv file in your database to show recommendations on your webpage. 
-    Step 4 : select proj.py file--> Right click on proj.py file --> select open with --> 
-             click Python.
-    Step 5 : Python terminal will be opened and a url will be displayed
-    Step 6 : Copy and paste that url in your browser and press enter the webpage 
-             will be opened.
-    Step 7 :  Enter the 14 nutrient values in the webpage and click on predict 
-              button.
-    Step 8 : The result will be displayed in the webpage.
+    Step 4 : Load the csv file into the Database. 
+    Step 5 : Now open the NetBeans and Run the Project.
+    Step 6 : A login page will be opened. If the user is existing user then they can login. If the user is the new user then they should Register first.
+    Step 7 : After Registering the user can login.After login the user can view the Subjects of all the posts. They can click on any of the subject of post.
+    Step 8 : Now the post will be displayed and the Recommendations for that post will be displayed.
 
 
 	•	
