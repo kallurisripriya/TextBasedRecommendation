@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>tbrs</display-name>
+  <servlet>
+    <servlet-name>userreg</servlet-name>
+    <servlet-class>src.com.omb.servlet.MemberRegistrationServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>userreg</servlet-name>
+    <url-pattern>/reg</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>userlogin</servlet-name>
+    <servlet-class>src.com.omb.servlet.MemberLoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>userlogin</servlet-name>
+    <url-pattern>/memberlog</url-pattern>
+  </servlet-mapping>
+    <servlet>
+    <servlet-name>createpost</servlet-name>
+    <servlet-class>src.com.omb.servlet.CreatePostServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>createpost</servlet-name>
+    <url-pattern>/createpost</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>UserLogin.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
